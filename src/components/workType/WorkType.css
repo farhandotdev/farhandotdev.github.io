@@ -1,0 +1,108 @@
+.workType{
+    margin: 20px;
+    padding-top: 0;
+    /* height: 300px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.wt1image{
+    width: 120px;
+    height: 120px;
+    /* background-color: #F3AFA8; */
+    background-color: black;
+    margin: 0 auto;
+    border-top-right-radius: 150px;
+}
+.wt1image2{
+    width: 40px;
+    height: 40px;
+    /* background-color: green; */
+    background-color: white;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: auto;
+}
+
+.wt1, .wt2, .wt3{
+    text-align: left;
+    height: 350px;
+    /* width: 400px; */
+    /* box-shadow: 0 5px 10px rgb(0 0 0 / 0.2); */
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.wt2image{
+    width: 120px;
+    height: 120px;
+    /* background-color: red; */
+    background-color: black;
+    margin: 0 auto;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 75px;
+}
+.wt2image2{
+    width: 40px;
+    height: 40px;
+    /* background-color: #F3AFA8; */
+    background-color: white;
+    border: 1px solid black;
+    border-top-right-radius: 40px;
+    margin: auto;
+}
+
+.wt3image{
+    width: 120px;
+    height: 120px;
+    /* background-color: green; */
+    background-color: black;
+    margin: 0 auto;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.wt3image2{
+    width: 40px;
+    height: 40px;
+    /* background-color:red; */
+    background-color: white;
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: auto;
+}
+
+@media only screen and (max-width:720px)  {
+    .workType{
+        margin-top: 25px;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width:650px)  {
+    .workType{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:600px)  {
+    .workType{
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width:550px)  {
+    .workType{
+        margin-top: 35px;
+        padding-top: 20px;
+    }
+}

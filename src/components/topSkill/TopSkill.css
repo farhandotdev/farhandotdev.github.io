@@ -1,0 +1,104 @@
+.head{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -30px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.topSkill{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.javaScript, .react , .node, .mongo, .flutter, .typeScript{
+    width: 100px;
+    border: 1px solid grey;
+    padding: 2px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    border-radius: 4px;
+}
+.javaScript:hover{
+    color: rgb(255, 213, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+.react:hover{
+    color: rgb(0, 115, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.node:hover{
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mongo:hover{
+    color: rgb(71, 112, 10);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.flutter:hover{
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.typeScript:hover{
+    color: rgb(66, 165, 251);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:850px){
+    .javaScript, .react , .node, .mongo, .flutter, .typeScript{
+        font-size: 16px;
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .javaScript, .react , .node, .mongo, .flutter, .typeScript{
+        font-size: 15px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .javaScript, .react , .node, .mongo, .flutter, .typeScript{
+        font-size: 14px;
+        width: 75px;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .javaScript, .react , .node, .mongo, .flutter, .typeScript{
+        font-size: 13px;
+        width: 70px;
+        border-radius: 3px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .javaScript, .react , .node, .mongo, .flutter, .typeScript{
+        font-size: 10px;
+        width: 65px;
+        border-radius: 2px;
+    }
+}
+@media only screen and (max-width:450px){
+    .javaScript, .react , .node, .mongo, .flutter, .typeScript{
+        font-size: 9px;
+        width: 60px;
+        border-radius: 2px;
+    }
+}
